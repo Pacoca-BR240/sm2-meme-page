@@ -4,14 +4,14 @@
 
 #myBtn{
     position: absolute;
-    top: 550px;
+    top: 50px;
     left: 350px;
     font-size: 20px;
   }
 
 #myBtn2{
     position: absolute;
-    top: 550px;
+    top: 50px;
     left: 900px;
     font-size: 20px;
 }
