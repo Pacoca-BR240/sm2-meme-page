@@ -1,20 +1,20 @@
 function changeImage()
 {
 var img = document.getElementById("image");
-img.src="https://i.imgflip.com/5e7nrj.jpg";
+img.src="https://www.sm2memepage.ga/assets/meme1.jpg";
 return false;
 }
 
 function revertImage()
 {
 var img = document.getElementById("image");
-img.src="https://i.imgflip.com/5e7nnp.jpg";
+img.src="https://www.sm2memepage.ga/assets/meme1.jpg";
 return false;
 }
 
 function revertImage()
 {
 var img = document.getElementById("image");
-img.src="https://cdn.discordapp.com/attachments/857275252412383263/857279682353430548/ZomboMeme_23062021172242.jpg";
+img.src="https://www.sm2memepage.ga/assets/meme2.jpg";
 return false;
 }
