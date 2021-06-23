@@ -1,0 +1,16 @@
+#image{
+  position: absolute;
+  left: 300px;
+}
+
+#myBtn{
+    top: 550px;
+    left: 350px;
+    font-size: 20px;
+  }
+
+#myBtn2{
+    top: 550px;
+    left: 900px;
+    font-size: 20px;
+}
