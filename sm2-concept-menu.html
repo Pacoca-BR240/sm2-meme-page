@@ -1,0 +1,155 @@
+<html>
+ <head>
+   <title>SM² Multiplayer Menu</title>
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/808963794788417576/815451094595010590/SM2_Logo_1.png">
+  <link rel="stylesheet" href="sm2.css">
+  <img id="img" src="https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/cropped-sm2_logo.png">
+  <script>
+
+$('#stop_scroll').on('scroll touchmove mousewheel', function(e){
+  e.preventDefault();
+  e.stopPropagation();
+  return false;
+})
+
+</script>
+   <style>
+   .ppgaming {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_pv_match_ded.png);
+     font-size: 0px;
+     width: 700px;
+     height: 50px;
+     cursor: pointer;
+     transition-duration: 0.3s;
+   }
+
+   .ppgaming:hover {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_pv_match.png)
+   }
+
+   .ppgaming:active {
+     transform: translateY(4px);
+   }
+   .ppgaming2 {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_theater_ded.png);
+     font-size: 0px;
+     width: 700px;
+     height: 50px;
+     cursor: pointer;
+     transition-duration: 0.3s;
+   }
+
+   .ppgaming2:hover {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_theater.png)
+   }
+
+   .ppgaming2:active {
+     background-color: #3e8e41;
+     transform: translateY(4px);
+   }
+   .ppgaming3 {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_playercard_ded.png);
+     font-size: 0px;
+     width: 700px;
+     height: 50px;
+     cursor: pointer;
+     transition-duration: 0.3s;
+   }
+
+   .ppgaming3:hover {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_playercard.png)
+   }
+
+   .ppgaming3:active {
+     background-color: #3e8e41;
+     transform: translateY(4px);
+   }
+   .ppgaming4 {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_barracks_ded.png);
+     font-size: 0px;
+     width: 700px;
+     height: 50px;
+     cursor: pointer;
+     transition-duration: 0.3s;
+   }
+
+   .ppgaming4:hover {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_barracks.png)
+   }
+
+   .ppgaming4:active {
+     transform: translateY(4px);
+   }
+   .ppgaming5 {
+     background-image:url('https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_options.png');
+     font-size: 0px;
+     width: 700px;
+     height: 50px;
+     cursor: pointer;
+     transition-duration: 0.3s;
+   }
+
+   .ppgaming5:hover {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_options.png)
+   }
+
+   .ppgaming5:active {
+     opacity: 0.25;
+     background-color: #292e29;
+     transform: translateY(4px);
+   }
+   .ppgaming6 {
+     background-image:url('https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_options_ded.png');
+     font-size: 0px;
+     width: 700px;
+     height: 50px;
+     cursor: pointer;
+     transition-duration: 0.3s;
+   }
+
+   .ppgaming6:hover {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/button_options.png)
+   }
+
+   .ppgaming6:active {
+     transform: translateY(4px);
+   }
+   .ppgaming7 {
+     background-image:url('https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/browser.jpg');
+     font-size: 0px;
+     width: 700px;
+     height: 200px;
+     cursor: pointer;
+     transition-duration: 0.3s;
+   }
+
+   .ppgaming7:hover {
+     background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/browser_hover.png)
+   }
+
+   .ppgaming7:active {
+     transform: translateY(4px);
+   }
+   body {
+    position: absolute;
+    background-image:url('https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/menu_raw.jpg');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+ }
+</style>
+<body>
+  <audio id="myAudio" preload="auto" autoplay loop> <source src="https://raw.githubusercontent.com/Pacoca-BR240/sm2-meme-page/main/y2meta.com%20-%20Call%20of%20Duty%20Ghosts%20%5BMusic%5D_%20Multiplayer%20Menu%20Theme%20(320%20kbps).mp3" type=audio/mpeg> </audio>
+    <a class="ppgaming" id="myBtn" href="https://www.sm2memepage.ga/meme1.html">
+    <a class="ppgaming2" id="myBtn2" href="https://www.sm2memepage.ga/meme1.html">
+    <a class="ppgaming3" id="myBtn3" href="https://www.sm2memepage.ga/meme1.html">
+    <a class="ppgaming4" id="myBtn4" href="https://www.sm2memepage.ga/meme1.html">
+    <a class="ppgaming5" id="BtnMusic"onClick="togglePlay()" target="_blank" rel="noopener noreferrer">
+    <a class="ppgaming6" id="myBtn5" href="https://www.sm2memepage.ga/meme1.html">
+    <a class="ppgaming7" id="Browser" href="https://www.sm2memepage.ga/meme1.html">
+    <script src="screept.js"></script>
+</body>
+ </head>

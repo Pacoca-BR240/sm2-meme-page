@@ -1,0 +1,54 @@
+#img{
+  position: absolute;
+  right: 20px;
+  height: 75px;
+  width: 150px;
+}
+
+#Browser {
+  position: absolute;
+  left: 5px;
+  top: 100px;
+}
+
+#myBtn {
+  position: absolute;
+  left: 5px;
+  top: 300px;
+}
+#myBtn2 {
+  position: absolute;
+  left: 5px;
+  top: 375px;
+}
+#myBtn3 {
+  position: absolute;
+  left: 5px;
+  top: 450px;
+}
+#myBtn4 {
+  position: absolute;
+  left: 5px;
+  top: 525px;
+}
+
+#myBtn5 {
+  position: absolute;
+  left: 5px;
+  top: 600px;
+}
+
+#myBtn6 {
+  position: absolute;
+  left: 5px;
+  top: 675px;
+}
+
+#BtnMusic {
+  background-image: url(https://raw.githubusercontent.com/Pacoca-BR240/sm2-concept-menu/main/cropped-sm2_logo.png);
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 75px;
+  width: 150px;
+}
