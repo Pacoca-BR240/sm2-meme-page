@@ -5,12 +5,12 @@
 
 #myBtn{
     top: 550px;
-    left: 350px;
+    left: 10px;
     font-size: 20px;
   }
 
 #myBtn2{
     top: 750px;
-    left: 900px;
+    left: 300px;
     font-size: 20px;
 }
