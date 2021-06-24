@@ -1,16 +1,16 @@
 #image{
   position: absolute;
-  left: 100px;
+  left: 300px;
 }
 
 #myBtn{
-    top: 50px;
-    left: 10px;
+    top: 550px;
+    left: 350px;
     font-size: 20px;
   }
 
 #myBtn2{
-    top: 100px;
-    left: 20px;
+    top: 750px;
+    left: 350px;
     font-size: 20px;
 }
