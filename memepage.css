@@ -1,6 +1,7 @@
 #image {
-  left: 500px;
-}
+    position: absolute;
+    left: 500px;
+  }
 
 #myBtn{
     position: absolute;
