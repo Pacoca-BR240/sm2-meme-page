@@ -1,18 +1,16 @@
-#image {
-    position: absolute;
-    left: 500px;
-  }
+#image{
+  position: absolute;
+  left: 300px;
+}
 
 #myBtn{
-    position: absolute;
-    top: 50px;
+    top: 550px;
     left: 350px;
     font-size: 20px;
   }
 
 #myBtn2{
-    position: absolute;
-    top: 50px;
+    top: 750px;
     left: 900px;
     font-size: 20px;
 }
