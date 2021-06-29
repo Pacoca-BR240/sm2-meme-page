@@ -18,3 +18,9 @@ h1 {
   top: 500px;
   right: 250px;
 }
+
+#madeby {
+  top: 750;
+  left: 270px;
+  position: absolute;
+}
