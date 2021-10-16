@@ -19,6 +19,12 @@ h1 {
   right: 250px;
 }
 
+#myBtn3 {
+  position: absolute;
+  top: 250px;
+  right: 250px;
+}
+
 #madeby {
   top: 550;
   left: 540px;
