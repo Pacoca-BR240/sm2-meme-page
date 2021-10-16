@@ -1,13 +1,13 @@
 #image{
   position: absolute;
-  left: 50%;
+  left: 25%;
   top: 50px;
 }
 
 #Halo{
   position : absolute;
   top: 5px;
-  left: 50%;
+  left: 25%;
 }
 
 #myBtn{
