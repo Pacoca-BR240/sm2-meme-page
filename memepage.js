@@ -1,20 +1,12 @@
-function changeImage()
-{
-var img = document.getElementById("image");
-img.src="https://i.imgflip.com/5e7nrj.jpg";
-return false;
-}
-
-function revertImage()
-{
-var img = document.getElementById("image");
-img.src="https://i.imgflip.com/5e7nnp.jpg";
-return false;
-}
-
-function revertImage()
-{
-var img = document.getElementById("image");
-img.src="https://cdn.discordapp.com/attachments/857275252412383263/857279682353430548/ZomboMeme_23062021172242.jpg";
-return false;
+function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
 }
